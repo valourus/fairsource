@@ -3,7 +3,7 @@
       <h1 class="consulting__title">Consulting and Services</h1>
         <div class="consulting__articles">
             <div class="article">
-                <img class="business" src="img/business.png">
+                <img class="article__business" src="img/business.png">
                 <h2 class="article__title">Business and Industry</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -13,7 +13,7 @@
                 </p>
             </div>
             <div class="article">
-                <img class="business" src="img/government.png">
+                <img class="article__government" src="img/government.png">
                 <h2 class="article__title">Government</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -23,7 +23,7 @@
                 </p>
             </div>
             <div class="article">
-                <img class="business" src="img/education.png">
+                <img class="article__education" src="img/education.png">
                 <h2 class="article__title">Education</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
