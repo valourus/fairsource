@@ -11,6 +11,9 @@
     </head>
     <body>
 <!--    TEMPLATE TO IMPORT A NEW PART -->
-        <?php //include "html/header.php"?>
+        <?php
+            //include "html/header.php"
+            include "html/consulting.php"
+        ?>
     </body>
 </html>
