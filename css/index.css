@@ -1,0 +1,8 @@
+.consulting {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.article {
+  display: flex;
+  flex-direction: row; }
