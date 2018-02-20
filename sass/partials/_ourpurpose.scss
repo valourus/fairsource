@@ -1,6 +1,3 @@
-body{
-  background-color:$green;
-}
 .ourpurpose__section {
   background-color: $white;
   height: 600px;
@@ -14,8 +11,8 @@ body{
   height: 0;
   background-color: transparent;
   @include transform-rotate(180deg);
-  border-bottom: 25px solid transparent;
-  border-left: 1583px solid $white
+  border-bottom: 24px solid transparent;
+  border-left: 100vw solid $white
 }
 
 .ourpurpose__anglebottom {
@@ -23,8 +20,8 @@ body{
   background-color: transparent;
   @include transform-rotate(0deg);
   transform: scaleX(-1);
-  border-bottom: 25px solid transparent;
-  border-left: 1583px solid $white
+  border-bottom: 24px solid transparent;
+  border-left: 100vw solid $white
 }
 
 .ourpurpose__boxwrapper {
@@ -39,6 +36,7 @@ body{
 
 .ourpurpose__legend {
   text-align: center;
+  padding: 2;
 }
 
 .ourpurpose__h1 {
