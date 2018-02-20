@@ -9,9 +9,13 @@
 @import "vendor/normalize";
 
 //partials
-@import "partials/header";
+@import "partials/nav";
 @import "partials/expertise";
 @import "partials/ourpurpose";
 @import "partials/whatwedo";
-@import "partials/intouch";
+@import "partials/header";
+@import "partials/footer";
+
+//pages
+@import "pages/index";
 
