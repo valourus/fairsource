@@ -1,4 +1,4 @@
-<div class="ourpurpose__angletop"></div>
+<div class="ourpurpose__angle ourpurpose__angle--top"></div>
 <section class="ourpurpose__section">
     <div class="ourpurpose__boxwrapper">
         <fieldset class="ourpurpose__fieldset">
@@ -15,4 +15,4 @@
         </fieldset>
     </div>
 </section>
-<div class="ourpurpose__anglebottom"></div>
+<div class="ourpurpose__angle ourpurpose__angle--bottom"></div>
