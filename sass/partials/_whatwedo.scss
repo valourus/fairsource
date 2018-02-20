@@ -1,4 +1,5 @@
 .whatwedo {
+  margin-top: -10px;
   color: $white;
   background-color: $green;
   width: 100%;
@@ -9,4 +10,8 @@
   text-align: center;
   padding: 2% 0 0 0;
   font-size: 40px;
+}
+
+.whatwedo__p {
+  margin: auto;
 }
