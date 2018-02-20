@@ -7,7 +7,7 @@
  */
 ?>
 
-<section class="expertise">
+<section class="expertise" id="expertise">
     <h1 class="expertise__title">
         Expertise
     </h1>

@@ -5,7 +5,7 @@
         <a href="#" class="nav__text--green">CONTACT</a>
         <a href="#" class="nav__text">LINKS/RESOURCES</a>
         <a href="#" class="nav__text">SERVICES</a>
-        <a href="#" class="nav__text">EXPERTISE</a>
+        <a href="#expertise" class="nav__text">EXPERTISE</a>
         <a href="#" class="nav__text">ABOUT</a>
     </nav>
 </header>
