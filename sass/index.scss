@@ -1,6 +1,4 @@
 //imports
 @import "modules/vars";
-
-* {
-  background-color: beige;
-}
+@import "vendor/normalize";
+@import "partials/ourpurpose";

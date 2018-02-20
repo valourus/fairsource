@@ -12,5 +12,6 @@
     <body>
 <!--    TEMPLATE TO IMPORT A NEW PART -->
         <?php //include "html/header.php"?>
+        <?php include "html/our-purpose.php" ?>
     </body>
 </html>
