@@ -24,7 +24,7 @@
 .expertise__header{
   font-size: 30px;
   margin: 0;
-  color: #3a7a0d;
+  color: $green;
 }
 
 .expertise__block{
@@ -77,8 +77,9 @@
 
 .expertise__angle--left{
   float: left;
-  bottom: 156px;
+  bottom: 155px;
+  @include transform-rotate(180deg);
   right: 80px;
   border-bottom: 179px solid white;
-  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
 }

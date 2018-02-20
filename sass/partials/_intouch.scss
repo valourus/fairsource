@@ -1,0 +1,102 @@
+.intouch{
+  height: 600px;
+  width: 100%;
+  background-color: #4B8813;
+  padding: 60px 0 0 0;
+  transform: skew(0deg, -1.1deg);
+}
+
+.intouch > * {
+  transform: skew(0deg,1.1deg);
+}
+
+.intouch__title{
+  color: $white-text;
+  font-size: 53px;
+  width: fit-content;
+  margin: 0 auto 0 auto;
+}
+
+.intouch__container{
+  margin: 50px auto 0 auto;
+  width: 1150px;
+  height: 400px;
+}
+
+.form{
+  width: 600px;
+  float: left;
+  color: $white-text;
+  margin: 0px 0 0 25px;
+}
+
+.form__head{
+  font-size: 40px;
+  margin: 0 0 23px 0;
+}
+
+.form__input{
+  background-color: $green;
+  border-style: none;
+  border: 2px solid white;
+  width: 250px;
+  height: 35px;
+  padding: 5px;
+}
+
+.form__name{
+  float: left;
+}
+
+.form__email{
+  float: right;
+  padding: 0 0 0 15px ;
+}
+
+.form__textarea{
+  width: 100%;
+  height: 30%;
+  margin: 20px 0 0 0;
+}
+
+.form__submit{
+  width: 200px;
+  height: 50px;
+  background-color: #e1e1e1;
+  color: $green;
+  border: none;
+  margin: 20px 0 0 0;
+  font-size: 30px;
+}
+
+.contact{
+  width: 450px;
+  float: right;
+  color: #fefefd;
+}
+
+.intouch__infohead{
+  font-size: 40px;
+}
+
+.intouch__info{
+  height: 60px;
+  width: 270px;
+  margin: 0 0 30px 0;
+}
+
+.intouch__info-container{
+  width: 100px;
+}
+
+.intouch__icon{
+  float: left;
+  width: 50px;
+}
+
+.intouch__p{
+  float: left;
+  font-size: 22px;
+  width: fit-content;
+  margin: 0 0 0 25px;
+}

@@ -19,6 +19,7 @@
 <?php include "html/ourpurpose.php" ?>
 <?php include "html/whatwedo.php" ?>
 <?php include "html/expertise.php" ?>
+<?php include "html/intouch.php"?>
 <?php include "html/footer.php" ?>
 </body>
 </html>
