@@ -1,7 +1,1 @@
 //VARS
-
-@mixin transform-rotate($degree) {
-  -ms-transform: rotate($degree);
-  -webkit-transform: rotate($degree);
-  transform: rotate($degree);
-}
