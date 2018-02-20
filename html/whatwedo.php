@@ -7,6 +7,6 @@
  */?>
 
 <section class="whatwedo">
-    <header class="whatwedo__header">WHAT WE DO</header>
-    <p class="whatwedo__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non sem vitae quam porttitor efficitur tristique vitae dui. Curabitur ultrices consequat tincidunt. Duis ut magna pretium, rutrum felis non, hendrerit justo. Nullam ut elit metus. Phasellus et nunc justo. Cras elementum bibendum mauris sed cursus. Praesent ut aliquam ante, sit amet tincidunt felis.</p>
+    <header class="whatwedo__header"><strong>WHAT WE DO</strong></header>
+    <p class="whatwedo__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient monies, nascetur ridiculus mus. Donec quam fells, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vet, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venena-tis vitae, justo. Nullam dictum fells eu pede mollis pretium.</p>
 </section>
