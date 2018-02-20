@@ -1,0 +1,34 @@
+.footer {
+  background-color: $white;
+  height: 20px;
+}
+
+.footer__text {
+  display: inline-block;
+  margin: auto 0 auto 50px;
+  padding-top: 10px;
+  font-size: 22px;
+  width: 20%;
+}
+
+.footer__h4 {
+  color: $green;
+  display: inline-block;
+}
+
+.footer__h4--black {
+  color: $black;
+}
+
+.footer__images {
+  display: inline-block;
+  float: right;
+  width: 21%;
+}
+
+.footer__icon {
+  margin: 0 14px 0 14px;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
