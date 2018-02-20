@@ -17,5 +17,6 @@
         <?php include "html/ourpurpose.php" ?>
 		<?php include "html/whatwedo.php" ?>
         <?php include "html/expertise.php" ?>
+        <?php include "html/header.php"?>
     </body>
 </html>

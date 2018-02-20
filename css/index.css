@@ -457,9 +457,6 @@ th {
   border-bottom: 179px solid white;
   border-left: 60px solid transparent; }
 
-body {
-  background-color: #4B8813; }
-
 .ourpurpose__section {
   background-color: white;
   height: 600px;
@@ -473,8 +470,8 @@ body {
   -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
-  border-bottom: 25px solid transparent;
-  border-left: 1583px solid white; }
+  border-bottom: 24px solid transparent;
+  border-left: 100vw solid white; }
 
 .ourpurpose__anglebottom {
   height: 0;
@@ -483,8 +480,8 @@ body {
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   transform: scaleX(-1);
-  border-bottom: 25px solid transparent;
-  border-left: 1583px solid white; }
+  border-bottom: 24px solid transparent;
+  border-left: 100vw solid white; }
 
 .ourpurpose__boxwrapper {
   padding-top: 140px; }
@@ -495,7 +492,8 @@ body {
   margin: auto auto auto 40%; }
 
 .ourpurpose__legend {
-  text-align: center; }
+  text-align: center;
+  padding: 2; }
 
 .ourpurpose__h1 {
   font-size: 3.4em;
