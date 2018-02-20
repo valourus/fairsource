@@ -1,8 +1,7 @@
 <section class="footer">
-    <div class="footer__text">
+    <div class="footer__textblock">
         <b>copyright</b>
-        <h4 class="footer__h4">FAIRSOURCE</h4>
-        <h4 class="footer__h4 footer__h4--black">2016</h4>
+        <p class="footer__text--green">FAIRSOURCE</p> 2016
     </div>
     <div class="footer__images">
         <figure><img class="footer__icon" src="img/facebook.png"/></figure>

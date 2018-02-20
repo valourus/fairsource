@@ -1,5 +1,4 @@
 
-
 <header class="page__header">
     <img class="header__logo" src="img/logo.png"/>
     <nav class="page__nav">
