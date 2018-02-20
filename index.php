@@ -12,6 +12,7 @@
     <body>
 <!--    TEMPLATE TO IMPORT A NEW PART -->
         <?php //include "html/header.php"?>
-        <?php include "html/our-purpose.php" ?>
+<!--        --><?php //include "html/our-purpose.php" ?>
+        <?php include "html/whatwedo.php"?>
     </body>
-</html>
+</html>1
