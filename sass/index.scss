@@ -1,6 +1,5 @@
 //imports
+@import "mixins/transform";
 @import "modules/vars";
-
-* {
-  background-color: beige;
-}
+@import "partials/expertise";
+@import "vendor/normalize";
