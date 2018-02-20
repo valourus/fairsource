@@ -1,6 +1,6 @@
 //imports
-@import "mixins/transform";
 @import "modules/vars";
-@import "partials/expertise";
-@import "partials/ourpurpose";
+@import "modules/fonts.scss";
+@import "mixins/transform";
 @import "vendor/normalize";
+@import "partials/ourpurpose";
