@@ -18,5 +18,6 @@
 		<?php include "html/whatwedo.php" ?>
         <?php include "html/expertise.php" ?>
         <?php include "html/header.php"?>
+        <?php include "html/intouch.php"?>
     </body>
 </html>
