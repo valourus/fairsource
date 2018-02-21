@@ -1,41 +1,64 @@
-var scrollY = 0;
-var distance = 50;
-var upInterval;
-function autoScrollTo(div) {
-    var currentY = window.pageYOffset;
-    var divY = document.getElementById(div).offsetTop;
-    var bodyHeight = document.body.offsetHeight;
-    var yPos = currentY + window.innerHeight;
-    if (currentY > divY) {
-        up(divY)
-    }
-    else if(currentY < divY){
-        autoScrollDown(divY)
-    }
-}
+var ScrollModule = (function () {
+    var scrollY = 0;
+    var distance
+    var upInterval;
+    var downInterval;
+    var scrollLength;
 
-function up(divY){
-    upInterval = setInterval(function(){autoScrollUp(divY)},20);
-}
+    var autoScrollTo = function(div){
+        distance = 100;
+        var currentY = window.pageYOffset;
+        var divY = document.getElementById(div).offsetTop;
 
-function autoScrollUp(divY){
-    var currentY = window.pageYOffset;
-    if(currentY >= divY+distance){
-        scrollY = currentY-distance;
-        window.scroll(0, scrollY);
+        if (currentY > divY) {
+            scrollLength = currentY - divY;
+            distance = scrollLength / 25;
+            _up(divY)
+        }
+        else if (currentY < divY) {
+            scrollLength = divY - currentY;
+            distance = scrollLength / 25;
+            _down(divY)
 
-    } else{
-        clearInterval(upInterval);
+        }
+    };
+
+    var _up = function (divY) {
+        upInterval = setInterval(function () {
+            _autoScrollUp(divY)
+        }, 20);
     }
-}
 
-function autoScrollDown(divY){
-    var currentY = window.pageYOffset;
-    var animator = setTimeout('autoScrollDown(\''+divY+'\')',20);
-    if(currentY <= divY-distance){
-        scrollY = currentY+distance;
-        window.scroll(0, scrollY);
-    } else {
-        clearTimeout(animator);
+    var _down = function (divY) {
+        downInterval = setInterval(function () {
+            _autoScrollDown(divY)
+        }, 20);
     }
-}
+
+    var _autoScrollUp = function (divY) {
+        var currentY = window.pageYOffset;
+        if (currentY >= divY + distance) {
+            scrollY = currentY - distance;
+            window.scroll(0, scrollY);
+
+        } else {
+            clearInterval(upInterval);
+        }
+    }
+
+    var _autoScrollDown = function (divY) {
+        var currentY = window.pageYOffset;
+        if (currentY <= divY - 200) {
+            scrollY = currentY + distance;
+            window.scroll(0, scrollY);
+
+
+        } else {
+            clearInterval(downInterval);
+        }
+    }
+
+    return{
+        autoScroll: autoScrollTo
+    }
+})();

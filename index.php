@@ -25,4 +25,5 @@
 <?php include "html/intouch.php"?>
 <?php include "html/footer.php" ?>
 </body>
+<script src="js/scroll.js"></script>
 </html>
