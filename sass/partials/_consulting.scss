@@ -1,0 +1,62 @@
+.consulting{
+  margin: 0 auto -10px auto;
+  width: 100%;
+  background-color: $grey;
+  height: 900px;
+  padding-top: 60px;
+}
+
+.consulting__container {
+  width: 800px;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 28px;
+}
+
+
+
+.article__title{
+  color: $green;
+}
+
+.article__business{
+  margin-top: 300px;
+}
+
+.img{
+  float: left;
+  margin: 15px 60px 0 0;
+  margin-top: 26px;
+}
+
+.article{
+  float: right;
+}
+
+.consulting__title{
+  font-size: 40px;
+  margin-left: 160px;
+  margin-right: auto;
+  width: fit-content;
+  margin-bottom: 80px;
+  font-weight: bold;
+
+}
+
+.article__container{
+  padding: 0 0 60px 0;
+
+}
+
+.article__text{
+  margin: 0 0 0 0;
+}
+
+.consulting__angletop {
+  width: 100%;
+  height: 25px;
+  margin-bottom:-13px;
+  -webkit-transform: skewY(-1deg);
+  background-color: $grey;
+}
