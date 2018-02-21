@@ -1,0 +1,31 @@
+.footer {
+  background-color: $white;
+  height: 20px;
+}
+
+.footer__textblock {
+  display: inline-block;
+  margin: auto 0 auto 50px;
+  padding-top: 10px;
+  font-size: 22px;
+  width: 20%;
+}
+
+.footer__text--green {
+  color: $green;
+  display: inline-block;
+}
+
+.footer__images {
+  display: inline-block;
+  float: right;
+  width: 19%;
+}
+
+.footer__icon {
+  border-radius: 5px;
+  margin: 0 14px 0 14px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}

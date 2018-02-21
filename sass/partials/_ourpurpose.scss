@@ -2,21 +2,25 @@
   background-color: $white;
   height: 600px;
   width: 100%;
+  font-family: Ubuntu, serif;
   margin: auto 0 auto 0;
 }
-.ourpurpose__angle{
+
+.ourpurpose__angletop {
   width: 100%;
   height: 25px;
   margin-bottom:-13px;
+  -webkit-transform: skewY(-0.9deg);
   background-color: $white;
-}
-.ourpurpose__angle--top {
-  -webkit-transform: skewY(-0.7deg);
-  margin-top:-13px;
+  margin-top: -13px;
 }
 
-.ourpurpose__angle--bottom {
+.ourpurpose__anglebottom {
+  width: 100%;
+  margin-top:-13px;
+  height: 25px;
   -webkit-transform: skewY(0.7deg);
+  background-color: $white;
 }
 
 .ourpurpose__boxwrapper {

@@ -1,0 +1,42 @@
+.page__header{
+  z-index: 1;
+  width: 100%;
+  height: $pageheader_height;
+  background-color: rgba(220,220,220,0.9);
+  position: fixed;
+  left: 0;
+  top: -18;
+  -webkit-transform:skewY(-1deg); /* Safari and Chrome */
+
+  nav{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    -webkit-transform:skewY(1deg);
+  }
+}
+
+.header__logo{
+  margin: 14px 0 0 4%;
+  width: 16%;
+  -webkit-transform:skewY(1deg);
+}
+
+
+.nav__text{
+  float: right;
+  line-height: $pageheader_height+15;
+  margin: 0 5.9% 0 0;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.nav__text--green{
+  float: right;
+  line-height: $pageheader_height+15;
+  margin: 0 3.9% 0 0;
+  color: #68A500;
+  font-size: 20px;
+}
