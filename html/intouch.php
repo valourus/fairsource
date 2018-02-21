@@ -24,11 +24,11 @@
             <input class="form__submit" type="submit" value="SEND">
         </form>
 
-        <aside class="contact">
+        <aside class="intouch__contact">
             <div class="intouch__infohead">
                 CONTACT INFO
             </div>
-            <p class="text">
+            <p class="intouch__text">
                 Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.
             </p>
             <div class="intouch__info-container">
