@@ -19,8 +19,7 @@
             <input class="form__name form__input" type="text" placeholder="Type your name here"/ >
             <input id="email" class="form__email form__input" type="email" placeholder="Type your email address here"/>
 
-            <textarea placeholder="What is it you want to have contact about?" class="form__input form__textarea" rows="10" cols="50">What is it you want to have contact about?
-            </textarea>
+            <textarea placeholder="What is it you want to have contact about?" class="form__input form__textarea" rows="10" cols="50"></textarea>
 
             <input class="form__submit" type="submit" value="send">
         </form>
