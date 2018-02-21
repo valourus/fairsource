@@ -37,7 +37,10 @@
 }
 
 .linksandresources__filterwrapper {
-  margin: 60px 0px 75px 10px;
+  //margin: 60px 0px 75px 10px;
+  float: left;
+  margin: 0 0 45px 0;
+  width: fit-content;
 }
 
 .linksandresources__filterbutton {
@@ -53,7 +56,7 @@
 .linksandresources__searchbox {
   color: $green;
   border: none;
-  width: 365px;
+  width: 369px;
   height: 40px;
   padding-left: 35px;
   font-size: 25px;
@@ -68,7 +71,13 @@
 }
 
 .linksandresources__articleswrapper {
-  margin-left: 200px;
+  //margin-left: 200px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  width: 1245px;
+  height: 100%;
 }
 
 .linksandresources__article {
@@ -86,6 +95,13 @@
   &:hover {
     background-image: url("../img/boxesopen.png");
   }
+  &:nth-child(odd){
+     background-color:$dark-pink;
+   }
+}
+
+.linksandresources__article--display-none{
+  display: none;
 }
 
 .linksandresources__articletext {
@@ -101,8 +117,10 @@
   border: none;
   height: 40px;
   width: 200px;
-  margin-right: 188px;
+ // margin-right: 188px;
   margin-top: -20px;
   color: $white;
   font-size: 20px;
+  position: relative;
+  right: 50px;
 }
