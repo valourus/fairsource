@@ -8,9 +8,9 @@
 ?>
 
 <section class="intouch" id="contact">
-    <div class="intouch__title">
+    <header class="intouch__title">
         GET IN TOUCH WITH US!
-    </div>
+    </header>
     <div class="intouch__container">
         <form class="form">
             <div class="form__head">

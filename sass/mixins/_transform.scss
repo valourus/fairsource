@@ -5,3 +5,9 @@
   -webkit-transform: rotate($degree);
   transform: rotate($degree);
 }
+
+@mixin transform-skewY($degree) {
+  -ms-transform: skewY($degree);
+  -webkit-transform: skewY($degree);
+  transform: skewY($degree);
+}
