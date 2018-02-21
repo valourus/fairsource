@@ -26,7 +26,7 @@ var EmailChecker = (function () {
 
     function _changeStyle(value){
         if(_isEmail(value)){
-            self.input.style.backgroundColor = "lightgreen";
+            self.input.style.backgroundColor = "limegreen";
         }else{
             self.input.style.backgroundColor = "#4B8813";
         }
