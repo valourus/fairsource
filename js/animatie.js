@@ -28,20 +28,6 @@ window.addEventListener('scroll', function() {
     }
 });*/
 
-function elementInViewport(el) {
-    let top = el.offsetTop;
-    let height = el.offsetHeight;
-
-    while(el.offsetParent) {
-        el = el.offsetParent;
-        top += el.offsetTop;
-    }
-
-    return (
-        top >= (window.pageYOffset - 200) && (top + height - 200) <= (window.pageYOffset + window.innerHeight)
-    );
-}
-
 //Module *****************************************************
 
 var BlocksSlideIn = (function () {
