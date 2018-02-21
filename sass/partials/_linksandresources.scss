@@ -82,6 +82,10 @@
   margin-bottom: 50px;
   width: 365px;
   height: 300px;
+
+  &:hover {
+    background-image: url("../img/boxesopen.png");
+  }
 }
 
 .linksandresources__articletext {
