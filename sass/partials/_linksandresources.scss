@@ -23,7 +23,7 @@
 }
 
 .linksandresources__header {
-  padding: 75px 0px 5px 0px;
+  padding: 75px 0 5px 0;
   color: $green;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .linksandresources__filterwrapper {
-  margin: 60px 0px 75px 10px;
+  margin: 60px 0 75px 10px;
 }
 
 .linksandresources__filterbutton {
@@ -85,6 +85,9 @@
 
   &:hover {
     background-image: url("../img/boxesopen.png");
+  }
+  &:nth-child(even){
+    background-color:$dark-pink;
   }
 }
 
