@@ -20,6 +20,7 @@
 <?php include "html/whatwedo.php" ?>
 <?php include "html/expertise.php" ?>
 <?php include "html/consulting.php" ?>
+<?php include "html/linksandresources.php"?>
 <?php include "html/intouch.php"?>
 <?php include "html/footer.php" ?>
 </body>
