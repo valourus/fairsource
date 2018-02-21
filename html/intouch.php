@@ -17,7 +17,7 @@
                 send us a message
             </div>
             <input class="form__name form__input" type="text" value="Type your name here"/ >
-            <input class="form__email form__input" type="email" value=" Type your email address here"/>
+            <input id="email" class="form__email form__input" type="email" value=" Type your email address here"/>
             <textarea class="form__textarea form__input" rows="10" cols="50">What is it you want to have contact about?
             </textarea>
             <input class="form__submit" type="submit" value="send">
