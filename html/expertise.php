@@ -63,3 +63,4 @@
         </div>
     </div>
 </section>
+<script src="js/animatie.js"></script>

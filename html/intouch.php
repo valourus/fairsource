@@ -9,25 +9,26 @@
 
 <section class="intouch" id="contact">
     <div class="intouch__title">
-        get in touch with us!
+        GET IN TOUCH WITH US!
     </div>
     <div class="intouch__container">
         <form class="form">
             <div class="form__head">
-                send us a message
+                SEND US A MESSAGE
             </div>
-            <input class="form__name form__input" type="text" value="Type your name here"/ >
-            <input class="form__email form__input" type="email" value=" Type your email address here"/>
-            <textarea class="form__textarea form__input" rows="10" cols="50">What is it you want to have contact about?
-            </textarea>
-            <input class="form__submit" type="submit" value="send">
+            <input class="form__name form__input" type="text" placeholder="Type your name here"/ >
+            <input id="email" class="form__email form__input" type="email" placeholder="Type your email address here"/>
+
+            <textarea placeholder="What is it you want to have contact about?" class="form__input form__textarea" rows="10" cols="50"></textarea>
+
+            <input class="form__submit" type="submit" value="SEND">
         </form>
 
-        <aside class="contact">
+        <aside class="intouch__contact">
             <div class="intouch__infohead">
-                contact info
+                CONTACT INFO
             </div>
-            <p class="text">
+            <p class="intouch__text">
                 Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.
             </p>
             <div class="intouch__info-container">
@@ -47,3 +48,4 @@
         </aside>
     </div>
 </section>
+<script src="js/emailcheck.js"></script>

@@ -2,7 +2,7 @@
   margin: 0 auto -10px auto;
   width: 100%;
   background-color: $grey;
-  height: 800px;
+  height: 900px;
   padding-top: 60px;
 }
 
@@ -11,7 +11,10 @@
   height: fit-content;
   margin-left: auto;
   margin-right: auto;
+  line-height: 28px;
 }
+
+
 
 .article__title{
   color: $green;
@@ -24,6 +27,7 @@
 .img{
   float: left;
   margin: 15px 60px 0 0;
+  margin-top: 26px;
 }
 
 .article{
@@ -31,17 +35,22 @@
 }
 
 .consulting__title{
-  font-size: 50px;
+  font-size: 40px;
   margin-left: 160px;
   margin-right: auto;
   width: fit-content;
   margin-bottom: 80px;
+  font-weight: bold;
 
 }
 
 .article__container{
   padding: 0 0 60px 0;
 
+}
+
+.article__text{
+  margin: 0 0 0 0;
 }
 
 .consulting__angletop {
