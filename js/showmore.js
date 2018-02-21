@@ -1,15 +1,10 @@
 var ArticlesShow = (function(){
     Public = {};
     self = {};
+    self.articles = document.getElementsByClassName('linksandresources__article');
+    self.button = document.getElementById('showbutton');
 
-    window.onload = function(){
-        self.articles = document.getElementsByClassName('linksandresources__article');
-        self.button = document.getElementById('showbutton');
-
-        self.button.addEventListener('click',_displayControl);
-    };
-
-    function _displayControl(){
+    Public.displayControl = function(){
         if(self.button.innerText === 'Load more'){
 
             self.articles[8].style.display = 'block';
@@ -23,7 +18,7 @@ var ArticlesShow = (function(){
             self.articles[6].style.display = 'none';
             self.button.innerText = 'Load more';
         }
-    }
+    };
 
     return Public;
 })();

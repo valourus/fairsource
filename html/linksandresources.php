@@ -37,7 +37,7 @@
         <article class="linksandresources__article linksandresources__article--display-none"><p class="linksandresources__articletext">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
         </article>
 
-        <button class="linksandresources__loadmorebutton" id="showbutton" >Load more</button>
+        <button class="linksandresources__loadmorebutton" id="showbutton" onclick="ArticlesShow.displayControl();">Load more</button>
     </div>
 
 
