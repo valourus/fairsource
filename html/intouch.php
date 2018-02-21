@@ -9,12 +9,12 @@
 
 <section class="intouch">
     <div class="intouch__title">
-        get in touch with us!
+        GET IN TOUCH WITH US!
     </div>
     <div class="intouch__container">
         <form class="form">
             <div class="form__head">
-                send us a message
+                SEND US A MESSAGE
             </div>
             <input class="form__name form__input" type="text" value="Type your name here"/ >
             <input id="email" class="form__email form__input" type="email" value=" Type your email address here"/>
@@ -25,7 +25,7 @@
 
         <aside class="contact">
             <div class="intouch__infohead">
-                contact info
+                CONTACT INFO
             </div>
             <p class="text">
                 Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.
