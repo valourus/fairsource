@@ -26,7 +26,15 @@
         </article>
         <article class="linksandresources__article"><p class="linksandresources__articletext">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
         </article>
+        <!--show more articles -->
+        <article class="linksandresources__article linksandresources__article--display-none"><p class="linksandresources__articletext">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        </article>
+        <article class="linksandresources__article linksandresources__article--display-none"><p class="linksandresources__articletext">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        </article>
+        <article class="linksandresources__article linksandresources__article--display-none"><p class="linksandresources__articletext">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        </article>
     </div>
-    <button class="linksandresources__loadmorebutton">Load more</button>
+    <button class="linksandresources__loadmorebutton" id="showbutton" >Load more</button>
+
 </section>
 <div class="linksandresources__angle linksandresources__angle--bottom"></div>
