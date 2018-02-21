@@ -1,32 +1,26 @@
-/*var blocks;
-var section;
-window.onload = function () {
-    blocks = document.getElementsByClassName('expertise__block');
-    section = document.getElementsByClassName('expertise')[0];
-    console.log(blocks);
-};
+var blocks = document.getElementsByClassName('expertise__block');
+var section = document.getElementsByClassName('expertise')[0];
 
 window.addEventListener('scroll', function() {
 
-    let count = 1;
-    for(let block of blocks){
+    var count = 1;
+    for(var i = 0;i < blocks.length;i++){
 
-        if(elementInViewport(block)){
+        if(elementInViewport(blocks[i])){
 
-            block.style.opacity = '0.7';
-            block.style.left = '0px';
+            blocks[i].style.opacity = '0.7';
+            blocks[i].style.left = '0px';
         }else{
 
             if(count % 2 === 0){
-                block.style.left = '125px';
+                blocks[i].style.left = '125px';
             }else{
-                block.style.left = '-125px';
+                blocks[i].style.left = '-125px';
             }
-            block.style.opacity = '0';
+            blocks[i].style.opacity = '0';
         }
-        count++;
     }
-});*/
+});
 
 //Module *****************************************************
 
@@ -39,28 +33,27 @@ var BlocksSlideIn = (function () {
 
     window.addEventListener('scroll', function () {
         Public.onScroll();
+        console.log("help");
     });
 
     Public.onScroll = function(){
-        let count = 1;
-        for(let block of self.blocks){
+        for(var i = 0;i < blocks.length;i++) {
+            console.log(elementInViewport(blocks[i]));
+            if(elementInViewport(blocks[i])){
 
-            if(elementInViewport(block)){
-
-                block.style.opacity = '0.7';
-                block.style.left = '0px';
+                blocks[i].style.opacity = '0.7';
+                blocks[i].style.left = '0px';
             }else{
 
-                if(count % 2 === 0){
-                    block.style.left = '125px';
+                if(i % 2 === 0){
+                    blocks[i].style.left = '125px';
                 }else{
-                    block.style.left = '-125px';
+                    blocks[i].style.left = '-125px';
                 }
-                block.style.opacity = '0';
+                blocks[i].style.opacity = '0';
             }
-            count++;
         }
-    }
+    };
 
     return Public;
 })();

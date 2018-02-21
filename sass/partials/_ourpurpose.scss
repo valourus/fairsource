@@ -14,11 +14,11 @@
 }
 .ourpurpose__angle--top {
   margin-bottom:-13px;
-  -webkit-transform: skewY(-0.9deg);
+  @include transform-skewY(-0.9deg);
 }
 
 .ourpurpose__angle--bottom {
-  -webkit-transform: skewY(0.7deg);
+  @include transform-skewY(0.7deg);
 }
 
 .ourpurpose__boxwrapper {
