@@ -9,7 +9,7 @@
 <html>
 <head>
     <script src="js/animatie.js"></script>
-    <script src="js/scroll.js"></script>
+    <script src="js/showmore.js"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
