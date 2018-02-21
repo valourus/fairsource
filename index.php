@@ -13,10 +13,10 @@
     </head>
     <body>
 <!--    TEMPLATE TO IMPORT A NEW PART -->
-        <?php //include "html/header.php"?>
         <?php include "html/ourpurpose.php" ?>
-		<?php include "html/whatwedo.php" ?>
+        <?php include "html/whatwedo.php" ?>
         <?php include "html/expertise.php" ?>
-        <?php include "html/header.php"?>
+        <?php include "html/linksandresources.php" ?>
+        <?php include "html/header.php" ?>
     </body>
 </html>
