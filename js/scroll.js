@@ -39,7 +39,7 @@ var ScrollModule = (function () {
 
     var _autoScrollUp = function (divY) {
         var currentY = window.pageYOffset;
-        if (currentY >= divY + distance) {
+        if (currentY >= divY + 100) {
             scrollY = currentY - distance;
             window.scroll(0, scrollY);
 
@@ -50,7 +50,7 @@ var ScrollModule = (function () {
 
     var _autoScrollDown = function (divY) {
         var currentY = window.pageYOffset;
-        if (currentY <= divY - 200) {
+        if (currentY <= divY - 100) {
             scrollY = currentY + distance;
             window.scroll(0, scrollY);
 
