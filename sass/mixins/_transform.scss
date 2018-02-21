@@ -11,3 +11,8 @@
   -webkit-transform: skewY($degree);
   transform: skewY($degree);
 }
+
+@mixin  transform-nav($degree){
+  -webkit-transform: skewY($degree);
+  -moz-transform: skewY($degree);
+}
