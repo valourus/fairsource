@@ -7,7 +7,7 @@
  */
 ?>
 
-<section class="intouch">
+<section class="intouch" id="contact">
     <div class="intouch__title">
         get in touch with us!
     </div>
