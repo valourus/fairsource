@@ -17,7 +17,7 @@
             <h1 class="expertise__header">
                 Lorem ipsum dolor sit amet
             </h1>
-            <article class="expertise__article ">
+            <article class="expertise__article expertise__header--float-left">
                 Consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                 Donec quern felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
@@ -29,7 +29,7 @@
             <h1 class="expertise__header expertise__header--float-right">
                 Lorem ipsum dolor sit amet
             </h1>
-            <article class="expertise__article expertise__article--float-right">
+            <article class="expertise__article expertise__header--float-right">
                 Consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                 Donec quern felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
@@ -41,7 +41,7 @@
             <h1 class="expertise__header">
                 Lorem ipsum dolor sit amet
             </h1>
-            <article class="expertise__article ">
+            <article class="expertise__article expertise__header--float-left">
                 Consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                 Donec quern felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
@@ -53,7 +53,7 @@
             <h1 class="expertise__header expertise__header--float-right">
                 Lorem ipsum dolor sit amet
             </h1>
-            <article class="expertise__article expertise__article--float-right">
+            <article class="expertise__article expertise__header--float-right">
                 Consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                 Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                 Donec quern felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
