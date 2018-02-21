@@ -6,6 +6,8 @@ var ScrollModule = (function () {
     var scrollLength;
 
     var autoScrollTo = function(div){
+        clearInterval(upInterval);
+        clearInterval(downInterval);
         distance = 100;
         var currentY = window.pageYOffset;
         var divY = document.getElementById(div).offsetTop;

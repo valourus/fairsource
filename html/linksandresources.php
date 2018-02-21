@@ -1,5 +1,5 @@
 <div class="linksandresources__angle linksandresources__angle--top"></div>
-<section class="linksandresources__section" id="links-resources">
+<section class="linksandresources__section" id="links">
     <header class="linksandresources__header"><h1 class="linksandresources__h1">LINKS AND RESOURCES</h1></header>
     <p class="linksandresources__paragraph">
         Lorem ipsum dolor sit amet, consecteteur adipiscing elit.
