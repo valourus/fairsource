@@ -1,5 +1,5 @@
-<div class="ourpurpose__angletop"></div>
-<section class="ourpurpose__section" id="about">
+<div class="ourpurpose__angle ourpurpose__angle--top"></div>
+<section class="ourpurpose__section">
     <div class="ourpurpose__boxwrapper">
         <fieldset class="ourpurpose__fieldset">
             <legend class="ourpurpose__legend"><h1 class="ourpurpose__h1">OUR PURPOSE</h1></legend>
@@ -15,4 +15,4 @@
         </fieldset>
     </div>
 </section>
-<div class="ourpurpose__anglebottom"></div>
+<div class="ourpurpose__angle ourpurpose__angle--bottom"></div>
