@@ -47,3 +47,4 @@
         </aside>
     </div>
 </section>
+<script src="js/emailcheck.js"></script>

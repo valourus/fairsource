@@ -3,6 +3,14 @@ var EmailChecker = (function () {
     let self = {};
 
     window.onload = function (){
+        console.log('load');
+        self.input = document.getElementById("email");
+        self.input.addEventListener("keypress", _keyPress);
+        self.input.addEventListener("keyup", _keyUp);
+    }
+
+    Public.construct = function (){
+        console.log('load');
         self.input = document.getElementById("email");
         self.input.addEventListener("keypress", _keyPress);
         self.input.addEventListener("keyup", _keyUp);

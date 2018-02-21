@@ -38,3 +38,4 @@
 
 </section>
 <div class="linksandresources__angle linksandresources__angle--bottom"></div>
+<script src="js/showmore.js"></script>
