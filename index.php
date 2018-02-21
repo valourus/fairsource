@@ -10,6 +10,7 @@
 <head>
     <script src="js/animatie.js"></script>
     <script src="js/emailcheck.js"></script>
+    <script src="js/showmore.js"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
@@ -20,6 +21,8 @@
 <?php include "html/ourpurpose.php" ?>
 <?php include "html/whatwedo.php" ?>
 <?php include "html/expertise.php" ?>
+<?php include "html/consulting.php" ?>
+<?php include "html/linksandresources.php"?>
 <?php include "html/intouch.php"?>
 <?php include "html/footer.php" ?>
 </body>
