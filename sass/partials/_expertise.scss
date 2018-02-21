@@ -3,12 +3,12 @@
   width: 100%;
   padding: 50px 0 0 0;
   background-image: url('../img/expertiseBackground.jpg');
-  transform: skew(0deg, -1.1deg);
+  //transform: skew(0deg, -1.1deg);
 }
 
-.expertise > * {
+/*.expertise > * {
   transform: skew(0deg,1.1deg);
-}
+}*/
 
 .expertise__title{
   font-size: 45px;
@@ -25,6 +25,7 @@
   font-size: 30px;
   margin: 0;
   color: $green;
+  margin: 0 0 10px 0;
 }
 
 .expertise__block{
@@ -34,19 +35,16 @@
   height: 150px;
   background-color: white;
   margin: 0 0 50px 0;
-  padding: 28px 15px 0 20px;
+  padding: 20px 15px 20px 20px;
   opacity: 0;
   left: 150px;
   transition: all 1s;
 }
 
 .expertise__article{
-  text-align: justify;
   font-size: 20px;
-}
-
-.expertise__article--float-right{
-  float: right;
+  line-height: 25px;
+  //text-align: left;
 }
 
 .expertise__block:nth-child(odd) {
@@ -58,8 +56,24 @@
   left: -80px;
 }
 
+.expertise__header--float-left {
+  float: left;
+  text-align: left;
+}
+
 .expertise__header--float-right {
   float: right;
+  text-align: right;
+}
+
+.expertise__angle--left {
+  float: left;
+  text-align: left;
+}
+
+.expertise__angle--right {
+  float: right;
+  text-align: right;
 }
 
 .expertise__angle{
@@ -68,18 +82,18 @@
 
 .expertise__angle--right{
   float: right;
-  bottom: 155px;
+  bottom: 163px;
   left: 65px;
   @include transform-rotate(180deg);
-  border-bottom: 178px solid white;
+  border-bottom: 190px solid white;
   border-left: 50px solid transparent;
 }
 
 .expertise__angle--left{
   float: left;
-  bottom: 155px;
+  bottom: 163px;
   @include transform-rotate(180deg);
   right: 80px;
-  border-bottom: 179px solid white;
+  border-bottom: 190px solid white;
   border-right: 60px solid transparent;
 }
