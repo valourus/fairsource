@@ -21,7 +21,7 @@
 
             <textarea placeholder="What is it you want to have contact about?" class="form__input form__textarea" rows="10" cols="50"></textarea>
 
-            <input class="form__submit" type="submit" value="send">
+            <input class="form__submit" type="submit" value="SEND">
         </form>
 
         <aside class="contact">
