@@ -15,6 +15,9 @@ var ScrollModule = (function () {
         if (currentY > divY) {
             scrollLength = currentY - divY;
             distance = scrollLength / 25;
+            if (div=='header'){
+                divY= divY+10;
+            }
             _up(divY)
         }
         else if (currentY < divY) {
