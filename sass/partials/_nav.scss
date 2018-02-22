@@ -6,21 +6,14 @@
   position: fixed;
   left: 0;
   top: -18;
-  -webkit-transform:skewY(-1deg); /* Safari and Chrome */
+  @include transform-skewY(-1deg);
 
-  nav{
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    -webkit-transform:skewY(1deg);
-  }
 }
 
 .header__logo{
-  margin: 14px 0 0 4%;
+  margin: 23px 0 0 4%;
   width: 16%;
-  -webkit-transform:skewY(1deg);
+  @include transform-skewY(1deg);
 }
 
 
@@ -29,14 +22,23 @@
   line-height: $pageheader_height+15;
   margin: 0 5.9% 0 0;
   text-decoration: none;
-  color: black;
+  color: $black;
   font-size: 17px;
 }
 
 .nav__text--green{
-  float: right;
-  line-height: $pageheader_height+15;
-  margin: 0 3.9% 0 0;
+  margin-right: 3.9%;
   color: #68A500;
-  font-size: 17px;
+  text-decoration: underline;
+}
+
+.page__nav{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+   top: -16px;
+  }
+  @include transform-nav(1deg);
 }
