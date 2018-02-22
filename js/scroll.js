@@ -16,7 +16,7 @@ var ScrollModule = (function () {
             scrollLength = currentY - divY;
             distance = scrollLength / 25;
             if (div=='header'){
-                divY= divY+15;
+                divY= divY+85;
             }
             _up(divY)
         }
@@ -42,7 +42,7 @@ var ScrollModule = (function () {
 
     var _autoScrollUp = function (divY) {
         var currentY = window.pageYOffset;
-        if (currentY >= divY) {
+        if (currentY >= divY - 70) {
             scrollY = currentY - distance;
             window.scroll(0, scrollY);
 
