@@ -11,7 +11,7 @@
 }
 
 .header__logo{
-  margin: 14px 0 0 4%;
+  margin: 23px 0 0 4%;
   width: 16%;
   @include transform-skewY(1deg);
 }
@@ -22,7 +22,7 @@
   line-height: $pageheader_height+15;
   margin: 0 5.9% 0 0;
   text-decoration: none;
-  color: black;
+  color: $black;
   font-size: 17px;
 }
 
